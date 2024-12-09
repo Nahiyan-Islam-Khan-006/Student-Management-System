@@ -26,7 +26,7 @@ int main() {
             }
 
             printf("\nEnter Student ID, Name, Age, and 3 Grades: ");
-            scanf("%d %s %d %f %f %f", &students[count].id, students[count].name,
+            scanf("%d %s %d %f %f %f", &students[count].id, &students[count].name,
                                        &students[count].age,
                                        &students[count].grades[0],
                                        &students[count].grades[1],
